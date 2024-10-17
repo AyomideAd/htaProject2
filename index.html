@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <!-- Syntax of CSS -->
+    <!-- ID's cannot have more than a name in an element, but CLASS can -->
+     <!-- Universal selector (*{}) it applies to all elements -->
+      <!-- Descendant selector- Targets element that are inside a specified element e.g (div p{}) -->
+       <!-- Child Selector-It targets immediate children of an element eg (ul > li{list-style-type:square}) -->
+        <!-- Attribute Selectors- Targets elements with specific selectors eg (input[type"text"]) -->
+         <!-- Pseudo-Class Selector- Targets elements based on their state e.g (a:hover{color:red}) -->
+          <!-- Pseudo-Element Selector-Styles a specific part of an elemen, such as the first line or first letter eg (p::first-line or first-letter{})-->
+           <!-- group selector-if you want multiple element to have a particular style use this: (h1,p,span{}) -->
+    <!-- CSS properties and values- CSS provides a wide range of properties to control the appearance of the web page -->
+     <!-- Typography eg color, font-size, font-family, font-style(normal, italic, oblique), font-variant, font-weight(boldness of the text from 100-900) -->
+      <!-- Layout and positioning- where you put things eg (margin, padding, display, position) -->
+        <!-- A link tag is used to used an external etension to an html file -->
+    <div>
+    <h1>Fresh Pasta Dough</h1>
+    <img src="img1.jfif" alt="img">
+    </div>
+    <ul>
+        <li><strong>Time:</strong> About 45 minutes</li>
+        <li><strong>Rating:</strong> 5 star</li>
+        <li><strong>Notes:</strong> <a href="#newyorktimes">Read community notes</a></li>
+    </ul>
+    <p class="main-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident deleniti commodi at animi, odio laboriosam ea dignissimos corporis sapiente voluptas assumenda cupiditate repellendus maiores quia ex, pariatur neque modi aperiam?</p>
+    <div>
+        <h2>Preparation</h2>
+        <ol>
+            <li>Mound the flour in the mixer</li>
+            <li>Beat together eggs</li>
+            <li>Mix eggs with flour</li>
+            <li>Transfer to concur surface</li>
+            <li>Rest dough for 30 minutes</li>
+        </ol>
+    </div>
+    <div>
+        <h2 id="newyorktimes">Community Notes</h2>
+        <p>This was garbage and i hated it</p>
+        <p>I prefer this recipe i found on the <a href="https://www.nytimes.com/international/" _blank>New York Times</a></p>
+    </div>
+</body>
+</html>
